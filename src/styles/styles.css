@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1{
+
+  background-color: #0B0C10;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #E5E5DB;
+  /* color:whitesmoke; */
+  font-weight:bold;
+  font-size: 4rem;
+  text-align: center;
+  padding: 20px;
+}
+h2{
+  font-size:30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:bold;
+  color: #2a2a2a;
+  
+}
+
+main{
+  display:flex;
+}
+
+#Resume{
+  min-height:100vh;
+  display:flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #1F2833;
+  
+}
+#previewField{
+  background-color: whitesmoke;
+  /* text-align: center; */
+  width: 800px;
+  min-height: 1000px;
+  margin:35px;
+  padding:20px;
+  box-shadow: 0 0 20px black;
+}
+#previewFieldPersonalSection{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+#previewFieldEducationSection{
+  display:flex;
+  flex-direction: column;
+}
+#previewFieldExperienceSection{
+  display:flex;
+  flex-direction: column;
+}
+
+#listItem{
+  display:flex;
+  justify-content: space-between;
+}
+#listItemTasks{
+  word-wrap: break-word;
+}
+#inputField{
+  background-color: #E5E5DB;
+  display:flex;
+  flex-direction: column;
+  width: 800px;
+  /* min-height: 1000px; */
+  margin:35px;
+  padding:20px 25px 20px 25px;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px black;
+}
+
+#PersonalSection{
+  display:flex;
+  flex-direction: column;
+}
+#EducationSection{
+  display:flex;
+  flex-direction: column;
+}
+
+
+.regInput{
+  margin: 5px 0px 5px 0px;
+  height:30px;
+  border:0px;
+  padding:5px;
+  border-radius: 0.3rem;
+}
+
+.descInput{
+  margin: 5px 0px 5px 0px;
+  height:60px;
+  border:0px;
+  padding:5px;
+  border-radius: 0.3rem;
+}
+
+
+li{
+  display:flex;
+  flex-direction: column;
+}
+button{
+  /* font-family: */
+  width:100px;
+  height: 35px;
+  font-size: 1.2rem;
+  border:0px;
+  border-radius:0.3rem;
+  background-color: #1F2833;
+  margin:2px;
+  font-weight:bold;
+  color: #E5E5DB;
+}
+button:hover{
+  background-color:#516b8a;
+  color:white;
+}
+#printButton{
+  position:absolute;
+  font-size: 1.5rem;
+  border-radius: 2rem;
+  margin-top: 100px;
+  width:100px;
+  height:100px;
+  color:whitesmoke;
+  background-color:rgb(255, 64, 64);
+  box-shadow: 0 0 10px black;
+}
+#printButton:hover{
+  background-color:red;
+}
